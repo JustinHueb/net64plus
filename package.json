@@ -11,7 +11,9 @@
     "build:proto": "pbjs -t static-module -w commonjs -p ./proto -o ./proto/ServerClientMessage.js ./proto/ServerClientMessage.proto && pbts -o ./proto/ServerClientMessage.d.ts ./proto/ServerClientMessage.js && pbjs -t static-module -w commonjs -p ./proto -o ./proto/ClientServerMessage.js ./proto/ClientServerMessage.proto && pbts -o ./proto/ClientServerMessage.d.ts ./proto/ClientServerMessage.js",
     "rebuild": "electron-rebuild -v 1.8.3 -f -w winprocess",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
-    "test": "jest spec"
+    "test": "jest spec",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -69,7 +71,8 @@
     "rimraf": "^2.6.2",
     "utf-8-validate": "^4.0.0",
     "winprocess": "0.0.2",
-    "ws": "^3.2.0"
+    "ws": "^3.2.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@types/csv-parse": "^1.1.11",
@@ -128,5 +131,6 @@
     "url-loader": "^0.6.2",
     "webpack": "^3.6.0",
     "webpack-sources": "^1.0.1"
-  }
+  },
+  "snyk": true
 }
