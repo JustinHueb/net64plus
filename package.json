@@ -69,7 +69,7 @@
     "rimraf": "^2.6.2",
     "utf-8-validate": "^4.0.0",
     "winprocess": "0.0.2",
-    "ws": "^3.2.0"
+    "ws": "^7.4.6"
   },
   "devDependencies": {
     "@types/csv-parse": "^1.1.11",
