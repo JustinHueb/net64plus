@@ -53,7 +53,7 @@
     "bufferutil": "^3.0.3",
     "csv-parse": "https://github.com/Tarnadas/node-csv-parse.git",
     "deepmerge": "^2.0.1",
-    "electron": "1.8",
+    "electron": "11.4.10",
     "history": "^4.7.2",
     "immer": "^0.8.1",
     "marked": "^0.3.9",
