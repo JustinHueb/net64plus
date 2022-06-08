@@ -50,7 +50,7 @@
   },
   "dependencies": {
     "axios": "^0.17.1",
-    "bufferutil": "^3.0.3",
+    "bufferutil": "^4.0.0",
     "csv-parse": "https://github.com/Tarnadas/node-csv-parse.git",
     "deepmerge": "^2.0.1",
     "electron": "1.8",
@@ -67,7 +67,7 @@
     "react-router-redux": "^5.0.0-alpha.6",
     "redux": "^3.7.2",
     "rimraf": "^2.6.2",
-    "utf-8-validate": "^4.0.0",
+    "utf-8-validate": "^5.0.0",
     "winprocess": "0.0.2",
     "ws": "^3.2.0"
   },
