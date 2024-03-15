@@ -49,7 +49,7 @@
     ]
   },
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "bufferutil": "^3.0.3",
     "csv-parse": "https://github.com/Tarnadas/node-csv-parse.git",
     "deepmerge": "^2.0.1",
